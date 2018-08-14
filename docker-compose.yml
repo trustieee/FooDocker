@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  foodocker:
+    image: ${DOCKER_REGISTRY}foodocker
+    build:
+      context: .\FooDocker
+      dockerfile: Dockerfile
